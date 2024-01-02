@@ -623,7 +623,7 @@
             <label class="subscribe-form-field">
               <input
                 class="subscribe-form-input"
-                name="user_name"
+                name="user-name"
                 type="email"
                 placeholder="E-mail"
               />
@@ -696,7 +696,7 @@
             </div>
           </div>
           <div class="form-wrapper">
-            <label  for="user-comment" class="form-label">Comment</label>
+            <label for="user-comment" class="form-label">Comment</label>
 
             <textarea
               class="form-comment"
@@ -705,26 +705,26 @@
               rows="4"
               placeholder="Text input"
             ></textarea>
-           </div>
-            <div class="checkbox-form">
-              <input class="checkbox visually-hidden"
-                     type="checkbox"
-                     id="user-privacy" 
-                     name="user-privacy"
-                     value="true" />
-              <label for="user-privacy" class="form-privasy">
-                <span class="form-agreement-checkbox">
-                  <svg class="form-agreement-icon" width="10" height="8">
-                    <use href="./images/icons.svg#icon-vector"></use>
-                  </svg>
-                </span>
-                I accept the terms and conditions of the
-              <a class="form-agreement-link" href="">Privacy Policy</a>
-              
-              </label>
-          
-            <button class="form-btn" type="submit" disabled>Send</button>
           </div>
+          <div class="checkbox-form">
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+            />
+            <label for="user-privacy" class="form-privasy">
+              <span class="form-agreement-checkbox">
+                <svg class="form-agreement-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="form-agreement-link" href="">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="form-btn" type="submit" disabled>Send</button>
         </form>
       </div>
     </div>
